@@ -1,0 +1,19 @@
+/*new css*/
+
+body {
+    background: url('../img/bg.jpeg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.search {
+  text-align: center;
+  align-items: center;
+  position: inherit;
+  color: white;
+  padding-bottom: 50px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}

@@ -83,7 +83,7 @@ sup {
 sub {
   bottom: -.25em;
 }
-img {
+ {
   border: 0;
 }
 svg:not(:root) {
@@ -222,12 +222,12 @@ th {
     display: table-header-group;
   }
   tr,
-  img {
+   {
     page-break-inside: avoid;
   }
-  img {
+  /* {
     max-width: 100% !important;
-  }
+  }*/
   p,
   h2,
   h3 {
@@ -1112,7 +1112,7 @@ a:focus {
 figure {
   margin: 0;
 }
-img {
+ {
   vertical-align: middle;
 }
 .img-responsive,
@@ -1121,16 +1121,16 @@ img {
 .carousel-inner > .item > img,
 .carousel-inner > .item > a > img {
   display: block;
-  max-width: 100%;
-  height: auto;
+  /*max-width: 100%;
+  height: auto;*/
 }
 .img-rounded {
   border-radius: 6px;
 }
 .img-thumbnail {
   display: inline-block;
-  max-width: 100%;
-  height: auto;
+  /*max-width: 100%;
+  height: auto;*/
   padding: 4px;
   line-height: 1.42857143;
   background-color: #fff;
@@ -4282,7 +4282,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar-brand:focus {
   text-decoration: none;
 }
-.navbar-brand > img {
+.navbar-brand >  {
   display: block;
 }
 @media (min-width: 768px) {
@@ -5010,8 +5010,8 @@ a.badge:focus {
        -o-transition: border .2s ease-in-out;
           transition: border .2s ease-in-out;
 }
-.thumbnail > img,
-.thumbnail a > img {
+.thumbnail > ,
+.thumbnail a >  {
   margin-right: auto;
   margin-left: auto;
 }
@@ -5210,7 +5210,7 @@ a.thumbnail.active {
 .media-object {
   display: block;
 }
-.media-object.img-thumbnail {
+.media-object.-thumbnail {
   max-width: none;
 }
 .media-right,
@@ -6249,8 +6249,8 @@ button.close {
        -o-transition: .6s ease-in-out left;
           transition: .6s ease-in-out left;
 }
-.carousel-inner > .item > img,
-.carousel-inner > .item > a > img {
+.carousel-inner > .item > ,
+.carousel-inner > .item > a >  {
   line-height: 1;
 }
 @media all and (transform-3d), (-webkit-transform-3d) {
